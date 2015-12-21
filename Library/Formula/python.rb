@@ -99,7 +99,7 @@ class Python < Formula
 
     args = %W[
       --prefix=#{prefix}
-      --enable-ipv6
+      --disable-ipv6
       --datarootdir=#{share}
       --datadir=#{share}
       --enable-framework=#{frameworks}
